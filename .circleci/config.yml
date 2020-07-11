@@ -43,7 +43,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            DISABLE_SPRING=true bundle exec rails test
+            DISABLE_SPRING=true bin/rails test
 
 
       # collect reports
